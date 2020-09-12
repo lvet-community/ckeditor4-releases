@@ -31,8 +31,11 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Set the most common block elements.
 	config.format_tags = 'p;h1;h2;h3;pre';
-	config.removePlugins = 'exportpdf';
+	config.removePlugins = 'exportpdf,save,newpage,about,a11yhelp,language';
 
 	// Simplify the dialog windows.
 	config.removeDialogTabs = 'image:advanced;link:advanced';
+	
+	// add new plugin
+	 config.extraPlugins = 'mathjax,uicolor,slideshow';
 };
