@@ -37,6 +37,6 @@ CKEDITOR.editorConfig = function( config ) {
 	config.removeDialogTabs = 'image:advanced;link:advanced';
 	
 	// add new plugin
-	 config.extraPlugins = 'mathjax,uicolor,slideshow';
-	config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML'; 
+// 	 config.extraPlugins = 'mathjax,uicolor,slideshow';
+// 	config.mathJaxLib = '//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML'; 
 };
